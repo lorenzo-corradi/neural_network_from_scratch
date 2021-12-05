@@ -139,8 +139,7 @@ class MultiLayerPerceptron(object):
             
         return self
     
-    
-# train same neural network for visualization
+# helper visualization functions
 def visualization_helper(X, y):
     
     n_hidden = 60
@@ -170,7 +169,6 @@ def check_retrain():
     return viz
 
     
-# helper visualization functions
 def make_meshgrid(x, y, h = 0.02):
     """Create a mesh of points to plot in
 
